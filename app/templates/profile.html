@@ -1,0 +1,13 @@
+<div id = "detail">
+  <form method = 'POST' action = ".">
+  <fieldset>
+    <legend>The Form:</legend>
+    <form id = "user_form" action = "{{ url_for('page') }}" method="POST">
+     Firstname: {{ form.first_name }} <br>
+     Lastname: {{ form.last_name }} <br>
+     Age: {{ form.age }} <br>
+     Image: {{form.image}}<br>
+<input type="submit"</input>
+</feildset>
+</form>
+</div>
